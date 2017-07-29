@@ -1,0 +1,6 @@
+framework module Pods_PollutionMap {
+  umbrella header "Pods-PollutionMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

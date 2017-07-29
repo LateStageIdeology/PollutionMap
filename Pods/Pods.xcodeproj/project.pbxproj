@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC7028442B96646C08A22234A30E3DC /* Pods-PollutionMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DE0B2F7EBDD5215ADE857A996AE15D /* Pods-PollutionMap-dummy.m */; };
+		2F5886A261BE1F7433A4941F97879D55 /* Pods-PollutionMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6A86A070BFA1E4274031C6A824C13 /* Pods-PollutionMapTests-dummy.m */; };
+		3DA2AC6E571A66576447995A916426B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5937F089676D98C47A98C89712F3256A /* Pods-PollutionMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A80CD6DDB9EB5D41F99B27D598AA29 /* Pods-PollutionMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8FA1A6BEAF359BFAD0E5F4DFD57DC94 /* Pods-PollutionMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4C7F3AD3DF29C057448CBBCA3CE316 /* Pods-PollutionMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED98136F95D4BA60EDF5FA3C70CDB92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A80CD6DDB9EB5D41F99B27D598AA29 /* Pods-PollutionMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PollutionMap-umbrella.h"; sourceTree = "<group>"; };
+		059770179BBC70A61D52DA0983199140 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C7F3AD3DF29C057448CBBCA3CE316 /* Pods-PollutionMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PollutionMapTests-umbrella.h"; sourceTree = "<group>"; };
+		10101C573582661EB76A6B49321CBB38 /* Pods_PollutionMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PollutionMapTests.framework; path = "Pods-PollutionMapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E054B8013DB4DDDABE99E29A5470A93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330ADC23E117623E5BEA356F6BAF9554 /* Pods_PollutionMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PollutionMap.framework; path = "Pods-PollutionMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		3BAB58F6A2E69B500CEADEF9769ABDF6 /* Pods-PollutionMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PollutionMapTests.modulemap"; sourceTree = "<group>"; };
+		43A6A86A070BFA1E4274031C6A824C13 /* Pods-PollutionMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PollutionMapTests-dummy.m"; sourceTree = "<group>"; };
+		4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		5A222C0C08B2DDEED89D0BCD947979FA /* Pods-PollutionMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PollutionMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61FC6BE3049F4AEEE79F0CA8A6DE875E /* Pods-PollutionMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PollutionMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80F1A4F370F9DF67A8C9D0D055670C35 /* Pods-PollutionMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PollutionMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87DE0B2F7EBDD5215ADE857A996AE15D /* Pods-PollutionMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PollutionMap-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96745C90FEA86E13C853E339F58A3FA1 /* Pods-PollutionMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PollutionMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B8B0425F014774A5F731BF87F9A2E6E /* Pods-PollutionMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PollutionMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACCFA2A7397672563C38F515989C3A02 /* Pods-PollutionMapTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PollutionMapTests-resources.sh"; sourceTree = "<group>"; };
+		BADC588FFEF08AAA94029534103895FB /* Pods-PollutionMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PollutionMap-resources.sh"; sourceTree = "<group>"; };
+		BD3E502BFB57B629E16BD6310DE15318 /* Pods-PollutionMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PollutionMap.debug.xcconfig"; sourceTree = "<group>"; };
+		C4814495B3B4FEEDA76DC7B4DB8B997C /* Pods-PollutionMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PollutionMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		E18DE22D2D887B6237969F2FE9E45755 /* Pods-PollutionMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PollutionMap.modulemap"; sourceTree = "<group>"; };
+		E4D94ED501792DDA3187BCE280E1FC70 /* Pods-PollutionMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PollutionMap.release.xcconfig"; sourceTree = "<group>"; };
+		E60078E501E4B154EE657732B609132B /* Pods-PollutionMapTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PollutionMapTests-frameworks.sh"; sourceTree = "<group>"; };
+		EDC29C66F36D3060B6EC441D27A94960 /* Pods-PollutionMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PollutionMap-frameworks.sh"; sourceTree = "<group>"; };
+		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020D7F5372E6B1B947063558F6C612D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98136F95D4BA60EDF5FA3C70CDB92D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD56EFE1DE37B828AA7279F0D077BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA2AC6E571A66576447995A916426B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				501562BF592517FC6A65661FF1B35C78 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		17CF10021E5CB2434422F96E463FEC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330ADC23E117623E5BEA356F6BAF9554 /* Pods_PollutionMap.framework */,
+				10101C573582661EB76A6B49321CBB38 /* Pods_PollutionMapTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
+				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */,
+				7679C02ACA204A8841D527A6548CA23E /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7679C02ACA204A8841D527A6548CA23E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				17CF10021E5CB2434422F96E463FEC43 /* Products */,
+				A247A4B40CC6A21F504EB7C32B7059BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88E77938869BB2811A5458198B8422FE /* Pods-PollutionMap */ = {
+			isa = PBXGroup;
+			children = (
+				059770179BBC70A61D52DA0983199140 /* Info.plist */,
+				E18DE22D2D887B6237969F2FE9E45755 /* Pods-PollutionMap.modulemap */,
+				C4814495B3B4FEEDA76DC7B4DB8B997C /* Pods-PollutionMap-acknowledgements.markdown */,
+				61FC6BE3049F4AEEE79F0CA8A6DE875E /* Pods-PollutionMap-acknowledgements.plist */,
+				87DE0B2F7EBDD5215ADE857A996AE15D /* Pods-PollutionMap-dummy.m */,
+				EDC29C66F36D3060B6EC441D27A94960 /* Pods-PollutionMap-frameworks.sh */,
+				BADC588FFEF08AAA94029534103895FB /* Pods-PollutionMap-resources.sh */,
+				04A80CD6DDB9EB5D41F99B27D598AA29 /* Pods-PollutionMap-umbrella.h */,
+				BD3E502BFB57B629E16BD6310DE15318 /* Pods-PollutionMap.debug.xcconfig */,
+				E4D94ED501792DDA3187BCE280E1FC70 /* Pods-PollutionMap.release.xcconfig */,
+			);
+			name = "Pods-PollutionMap";
+			path = "Target Support Files/Pods-PollutionMap";
+			sourceTree = "<group>";
+		};
+		9A82BC32E4BE747197E48A2C4195EA2D /* Pods-PollutionMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E054B8013DB4DDDABE99E29A5470A93 /* Info.plist */,
+				3BAB58F6A2E69B500CEADEF9769ABDF6 /* Pods-PollutionMapTests.modulemap */,
+				9B8B0425F014774A5F731BF87F9A2E6E /* Pods-PollutionMapTests-acknowledgements.markdown */,
+				5A222C0C08B2DDEED89D0BCD947979FA /* Pods-PollutionMapTests-acknowledgements.plist */,
+				43A6A86A070BFA1E4274031C6A824C13 /* Pods-PollutionMapTests-dummy.m */,
+				E60078E501E4B154EE657732B609132B /* Pods-PollutionMapTests-frameworks.sh */,
+				ACCFA2A7397672563C38F515989C3A02 /* Pods-PollutionMapTests-resources.sh */,
+				0A4C7F3AD3DF29C057448CBBCA3CE316 /* Pods-PollutionMapTests-umbrella.h */,
+				80F1A4F370F9DF67A8C9D0D055670C35 /* Pods-PollutionMapTests.debug.xcconfig */,
+				96745C90FEA86E13C853E339F58A3FA1 /* Pods-PollutionMapTests.release.xcconfig */,
+			);
+			name = "Pods-PollutionMapTests";
+			path = "Target Support Files/Pods-PollutionMapTests";
+			sourceTree = "<group>";
+		};
+		A247A4B40CC6A21F504EB7C32B7059BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E77938869BB2811A5458198B8422FE /* Pods-PollutionMap */,
+				9A82BC32E4BE747197E48A2C4195EA2D /* Pods-PollutionMapTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */,
+				36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		996F2F25B53F92EE5517FA2D7268CDCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FA1A6BEAF359BFAD0E5F4DFD57DC94 /* Pods-PollutionMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01DB0E35AC57EAA0F3D95EC5EE42DCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5937F089676D98C47A98C89712F3256A /* Pods-PollutionMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E199279E0A880BDB4C617266A86FC45 /* Pods-PollutionMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA3181902AC135C748726BC6FCD930 /* Build configuration list for PBXNativeTarget "Pods-PollutionMapTests" */;
+			buildPhases = (
+				C7FC1137F7C043915DF7CABE2A3AC2E8 /* Sources */,
+				6FD56EFE1DE37B828AA7279F0D077BC0 /* Frameworks */,
+				996F2F25B53F92EE5517FA2D7268CDCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PollutionMapTests";
+			productName = "Pods-PollutionMapTests";
+			productReference = 10101C573582661EB76A6B49321CBB38 /* Pods_PollutionMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EE2BAE41A436C73FE4A627CFEC8EF2A /* Pods-PollutionMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7047B76855A60A5E8E738F9956805DF4 /* Build configuration list for PBXNativeTarget "Pods-PollutionMap" */;
+			buildPhases = (
+				FDDD63E23CCE1A4B24D3783DF9F482E1 /* Sources */,
+				020D7F5372E6B1B947063558F6C612D7 /* Frameworks */,
+				C01DB0E35AC57EAA0F3D95EC5EE42DCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PollutionMap";
+			productName = "Pods-PollutionMap";
+			productReference = 330ADC23E117623E5BEA356F6BAF9554 /* Pods_PollutionMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17CF10021E5CB2434422F96E463FEC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE2BAE41A436C73FE4A627CFEC8EF2A /* Pods-PollutionMap */,
+				1E199279E0A880BDB4C617266A86FC45 /* Pods-PollutionMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7FC1137F7C043915DF7CABE2A3AC2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5886A261BE1F7433A4941F97879D55 /* Pods-PollutionMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDD63E23CCE1A4B24D3783DF9F482E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC7028442B96646C08A22234A30E3DC /* Pods-PollutionMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42568FBEEAA0E0C8B17F61D7E38FCC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96745C90FEA86E13C853E339F58A3FA1 /* Pods-PollutionMapTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PollutionMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PollutionMapTests/Pods-PollutionMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PollutionMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84614F4ECE93D97E6D0BF40B526218BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D94ED501792DDA3187BCE280E1FC70 /* Pods-PollutionMap.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PollutionMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PollutionMap/Pods-PollutionMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PollutionMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBB335A303D22294D92FAE15A27EAF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F1A4F370F9DF67A8C9D0D055670C35 /* Pods-PollutionMapTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PollutionMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PollutionMapTests/Pods-PollutionMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PollutionMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F91C099E1FC1AE610A66D350FCCD24CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3E502BFB57B629E16BD6310DE15318 /* Pods-PollutionMap.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PollutionMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PollutionMap/Pods-PollutionMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PollutionMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7047B76855A60A5E8E738F9956805DF4 /* Build configuration list for PBXNativeTarget "Pods-PollutionMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91C099E1FC1AE610A66D350FCCD24CD /* Debug */,
+				84614F4ECE93D97E6D0BF40B526218BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA3181902AC135C748726BC6FCD930 /* Build configuration list for PBXNativeTarget "Pods-PollutionMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB335A303D22294D92FAE15A27EAF0D /* Debug */,
+				42568FBEEAA0E0C8B17F61D7E38FCC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
